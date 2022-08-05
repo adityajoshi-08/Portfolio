@@ -20,8 +20,9 @@ a{
     color: black;
     opacity: 0.9;
 }
-.logo img{
+.logo a img{
     margin-bottom: 4px;
+    width: 30px;
 }
 .container{
     width: 70%;
@@ -193,5 +194,14 @@ footer{
 @media(max-width:780px){
     .project .col{
         flex-direction: column;
+    }
+
+    .logo a{
+        display: block;
+        align-items: center;
+        margin: auto;
+    }
+    .logo{
+        display: block;
     }
 }
