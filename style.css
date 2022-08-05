@@ -6,7 +6,7 @@
 }
 
 header{
-    background-color: bisque;
+    background-color: #F1F1F1;
     width: screen-width;
 }
 a{
@@ -97,6 +97,10 @@ ul li a{
 }
 .row .col1{
     width: 50%;
+}
+
+header .container{
+    padding-top: 50px;
 }
 
 /* Skills  */
@@ -242,5 +246,13 @@ footer{
 
     .skills a{
         width: 25%;
+    }
+
+    .small-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navright ul li{
+        display: inline;
     }
 }
