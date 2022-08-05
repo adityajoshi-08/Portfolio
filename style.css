@@ -128,9 +128,17 @@ ul li a{
 .project{
     text-align: center;
 }
+.project .row{
+    margin-left: auto;
+    margin-right: auto;
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+}
 .project .col{
     display: flex;
     flex:1;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
 .project hr {
@@ -178,4 +186,12 @@ footer{
 .thanks a:hover{
     color: white;
     opacity: 1;
+}
+
+/* Media Query */
+
+@media(max-width:780px){
+    .project .col{
+        flex-direction: column;
+    }
 }
