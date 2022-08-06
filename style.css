@@ -242,19 +242,23 @@ footer{
         width: 100%;
         margin:15px auto;
     }
-        .my-img:hover {
-            border-radius: 50%;
-            transform: none;
-        }
+    .my-img{
+        border-radius: 50%;
+        transform: none;
+    }
+    .my-img:hover {
 
-                ul li {
+        transform: none;
+    }
+
+    ul li {
         
         
-                    list-style: none;
-                    display: block;
-                    margin-right: auto;
-                    padding: 8px;
-                }
+        list-style: none;
+        display: block;
+        margin-right: auto;
+        padding: 8px;
+    }
 
     .skills .row {
         flex-direction: column;
